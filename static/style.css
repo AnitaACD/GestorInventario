@@ -1,0 +1,134 @@
+/* Fondo general suave y morado claro */
+body {
+    background-color: #f5f3ff;          /* muy claro morado/lavanda */
+    color: #4b3f72;                     /* texto gris-morado oscuro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar morada elegante */
+.navbar {
+    background: linear-gradient(135deg, #6b48ff, #a78bfa) !important;
+    box-shadow: 0 4px 12px rgba(107, 72, 255, 0.3);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #e0d7ff !important;
+}
+
+/* Alertas con tonos morados */
+.alert-success {
+    background-color: #e9d5ff;
+    color: #5e3a9e;
+    border-color: #c4a1ff;
+}
+
+.alert-danger {
+    background-color: #ffe4e6;
+    color: #9d4b5e;
+    border-color: #ffccd1;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-primary {
+    background-color: #e0d7ff;
+    color: #4b3f72;
+    border-color: #c4a1ff;
+}
+
+/* Botones morados */
+.btn-primary {
+    background-color: #7c3aed;
+    border-color: #6d28d9;
+}
+
+.btn-primary:hover {
+    background-color: #6d28d9;
+    border-color: #5b21b6;
+}
+
+.btn-success {
+    background-color: #a78bfa;
+    border-color: #8b5cf6;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #8b5cf6;
+}
+
+.btn-warning {
+    background-color: #c084fc;
+    border-color: #a855f7;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #f472b6;
+    border-color: #ec4899;
+}
+
+/* Tablas con toque morado */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #7c3aed, #a78bfa);
+    color: white;
+    border: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(243, 232, 255, 0.6);   /* morado muy claro */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #ede9fe;
+}
+
+/* Cards y formularios */
+.card {
+    border: 1px solid #d1bbff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(107, 72, 255, 0.15);
+}
+
+.form-control {
+    border-color: #c4a1ff;
+}
+
+.form-control:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 0.25rem rgba(124, 58, 237, 0.25);
+}
+
+/* Badges (entradas/salidas) */
+.badge.bg-success {
+    background-color: #a78bfa !important;
+}
+
+.badge.bg-danger {
+    background-color: #f472b6 !important;
+}
+
+/* Texto de stock bajo */
+.text-danger.fw-bold {
+    color: #ec4899 !important;
+}
+
+/* Botones pequeños en la tabla */
+.btn-sm {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.65rem;
+}
